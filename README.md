@@ -1,32 +1,51 @@
-# Simple-IoT-Network-Simulation---Greenhouse-Monitoring
-This project involves simulating a simple IoT-based greenhouse monitoring system using OMNeT++. The simulation models a network of wireless sensor nodes, a gateway, and a user interface (farmer’s computer). The goal is to evaluate the system’s performance, energy efficiency, and data transmission delay.
 
-The project is divided into two parts:
 
-Part 1: Models the basic greenhouse sensor network.
-Part 2: Extends the system with new sensors, a second gateway, and a router.
+# 🌱 Simple IoT Network Simulation – Greenhouse Monitoring 🌿
 
-# Simulation Details
-Part 1: Basic IoT Model
-Five sensors monitor air humidity, temperature, soil moisture, and temperature.
-Wireless communication to a gateway, then to the farmer’s computer.
-Goal: Measure system runtime before sensor shutdown.
-Part 2: Extended Model
-New sensors (better accuracy, higher energy use).
-Additional gateway + router for scalability.
-Wireless delay modeling.
-Goals:
-Optimize wakeup cycles for 4-week battery life.
-Determine ideal battery capacity.
-Analyze transmission delays.
+This project simulates a simple **IoT-based greenhouse monitoring system** using **OMNeT++**. The system models a **wireless sensor network**, a **gateway**, and a **user interface (farmer’s computer)** to analyze **performance, energy efficiency, and data transmission delay**.
 
-#How to Run
-Requirements 
+## 🏗 Project Overview
 
-OMNeT++ (v5.6+), Python, matplotlib.
+The simulation is divided into **two parts**:
 
-\
-Clone repo & navigate
+### 🔹 Part 1: Basic Greenhouse Sensor Network
+- **Five sensors** monitor:
+  - **Air humidity**
+  - **Temperature**
+  - **Soil moisture**
+- Sensors communicate **wirelessly** with a **gateway**.
+- The **gateway** transmits data to the **farmer’s computer**.
+- **Goal**: Measure the system’s **runtime** before sensors run out of battery.
 
-Run simulation in OMNeT++.
-Analyze results (energy trends, delays, sensor lifespan).
+### 🔹 Part 2: Extended System with More Features
+- **New sensors** with **higher accuracy** but **higher energy consumption**.
+- **Additional gateway** and a **router** for improved scalability.
+- **Wireless delay modeling** to simulate real-world conditions.
+- **Goals**:
+  - Optimize **sensor wake-up cycles** for a **4-week battery life**.
+  - Determine **ideal battery capacity** for efficient operation.
+  - Analyze **transmission delays** for better system performance.
+
+---
+
+## 🚀 How to Run the Simulation
+
+### 🛠 Requirements
+- **OMNeT++ (v5.6+)**
+- **Python**
+- **matplotlib** (for result visualization)
+
+### 📥 Setup & Execution
+1. **Clone the repository**
+2. **Open OMNeT++** and load the project.
+3. **Run the simulation** inside OMNeT++.
+4. **Analyze the results** (energy trends, delays, and sensor lifespan).
+
+---
+
+## 📊 Analysis & Expected Results
+- **Energy Consumption Trends**: How long do sensors last before battery depletion?
+- **Transmission Delays**: Impact of network topology on real-time data collection.
+- **Battery Optimization**: Best configurations for extended sensor operation.
+
+---

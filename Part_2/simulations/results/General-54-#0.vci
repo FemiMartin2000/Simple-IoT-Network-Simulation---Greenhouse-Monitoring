@@ -1,0 +1,43 @@
+file 3854563 1702967444                                         
+version 3
+run General-2-20231219-07:30:32-6828
+attr configname General
+attr datetime 20231219-07:30:32
+attr datetimef 20231219-073032
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $0=54
+attr iterationvarsd 54
+attr iterationvarsf 54-
+attr measurement $0=54
+attr network Sensor_network
+attr processid 6828
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 2
+attr seedset 54
+config network Sensor_network
+config seed-set 54
+
+vector 0 Sensor_network.sensor[3] Each_sensor_energy:vector ETV
+attr recordingmode vector
+attr source batterylevel
+vector 1 Sensor_network.sensor[4] Each_sensor_energy:vector ETV
+attr recordingmode vector
+attr source batterylevel
+vector 2 Sensor_network.sensor[1] Each_sensor_energy:vector ETV
+attr recordingmode vector
+attr source batterylevel
+vector 3 Sensor_network.sensor[2] Each_sensor_energy:vector ETV
+attr recordingmode vector
+attr source batterylevel
+vector 4 Sensor_network.sensor[0] Each_sensor_energy:vector ETV
+attr recordingmode vector
+attr source batterylevel
+0	1081 814954 1 257263 10.012583452044 196908.391477237702 18230 0.19849976012483 9999.4514344451 91141809.523809 607595395994.16
+1	816035 758273 4 249359 10.924383428646 182680.839214773914 16982 0.51491971322058 9999.4111368541 84904372.698219 566012481988.22
+2	1574308 819591 7 249537 10.969666620949 182888.208485966933 18273 0.53736118030111 9999.4527439449 91359910.137768 609049398215.93
+3	2393899 823120 10 258617 11.81619748706 201862.180278811472 18403 0.24259541372216 9999.4565939895 92007232.484312 613364882069.59
+4	3217019 637542 13 213148 12.100914845942 150633.909556994182 14321 0.32262485139575 9999.3016985073 71597310.477884 477298734953.84
+

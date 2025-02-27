@@ -1,0 +1,116 @@
+version 3
+run General-1-20231219-07:30:08-20012
+attr configname General
+attr datetime 20231219-07:30:08
+attr datetimef 20231219-073008
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars $0=23
+attr iterationvarsd 23
+attr iterationvarsf 23-
+attr measurement $0=23
+attr network Sensor_network
+attr processid 20012
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 1
+attr seedset 23
+config network Sensor_network
+config seed-set 23
+
+par Sensor_network.sensor[0] typename "\"iot.Sensor\""
+par Sensor_network.sensor[0] sensorId -1
+par Sensor_network.sensor[0] energyLevelStart 10000
+par Sensor_network.sensor[0] sensorStartTime 12.5865s
+attr unit s
+scalar Sensor_network.sensor[0] Each_sensor_energy:timeavg 3918.9206380963
+attr recordingmode timeavg
+attr source batterylevel
+statistic Sensor_network.sensor[0] Each_sensor_energy:stats
+field count 15237
+field mean 4999.3768126234
+field stddev 2887.0163581351
+field min 0.066210897158414
+field max 9999.3436640989
+field sum 76175504.493942
+field sqrsum 507820030413.7
+attr recordingmode stats
+attr source batterylevel
+par Sensor_network.sensor[1] typename "\"iot.Sensor\""
+par Sensor_network.sensor[1] sensorId -1
+par Sensor_network.sensor[1] energyLevelStart 10000
+par Sensor_network.sensor[1] sensorStartTime 13.3455s
+attr unit s
+scalar Sensor_network.sensor[1] Each_sensor_energy:timeavg 4158.9595591856
+attr recordingmode timeavg
+attr source batterylevel
+statistic Sensor_network.sensor[1] Each_sensor_energy:stats
+field count 16266
+field mean 4999.6732692312
+field stddev 2886.8512029526
+field min 0.57602622666417
+field max 9999.3852183232
+field sum 81324685.397314
+field sqrsum 542147899712.43
+attr recordingmode stats
+attr source batterylevel
+par Sensor_network.sensor[2] typename "\"iot.Sensor\""
+par Sensor_network.sensor[2] sensorId -1
+par Sensor_network.sensor[2] energyLevelStart 10000
+par Sensor_network.sensor[2] sensorStartTime 14.7348s
+attr unit s
+scalar Sensor_network.sensor[2] Each_sensor_energy:timeavg 4543.3104946397
+attr recordingmode timeavg
+attr source batterylevel
+statistic Sensor_network.sensor[2] Each_sensor_energy:stats
+field count 16996
+field mean 4999.6293433285
+field stddev 2886.8803777264
+field min 0.43538289162298
+field max 9999.4116172629
+field sum 84973700.31921
+field sqrsum 566474666495.67
+attr recordingmode stats
+attr source batterylevel
+par Sensor_network.sensor[3] typename "\"iot.Sensor\""
+par Sensor_network.sensor[3] sensorId -1
+par Sensor_network.sensor[3] energyLevelStart 10000
+par Sensor_network.sensor[3] sensorStartTime 10.9249s
+attr unit s
+scalar Sensor_network.sensor[3] Each_sensor_energy:timeavg 4737.9207515143
+attr recordingmode timeavg
+attr source batterylevel
+statistic Sensor_network.sensor[3] Each_sensor_energy:stats
+field count 18629
+field mean 4999.7170669114
+field stddev 2886.8371828672
+field min 0.50767425361329
+field max 9999.4632009703
+field sum 93139729.239492
+field sqrsum 620914859015.12
+attr recordingmode stats
+attr source batterylevel
+par Sensor_network.sensor[4] typename "\"iot.Sensor\""
+par Sensor_network.sensor[4] sensorId -1
+par Sensor_network.sensor[4] energyLevelStart 10000
+par Sensor_network.sensor[4] sensorStartTime 13.8273s
+attr unit s
+scalar Sensor_network.sensor[4] Each_sensor_energy:timeavg 4999.7659649455
+attr recordingmode timeavg
+attr source batterylevel
+statistic Sensor_network.sensor[4] Each_sensor_energy:stats
+field count 19233
+field mean 4999.5060099686
+field stddev 2886.9614686948
+field min 0.051893912900366
+field max 9999.4800359762
+field sum 96155499.089726
+field sqrsum 641019994296.49
+attr recordingmode stats
+attr source batterylevel
+par Sensor_network.gateway typename "\"iot.Gateway\""
+par Sensor_network.user typename "\"iot.User\""
+par Sensor_network typename "\"iot.simulations.Sensor_network\""
+par Sensor_network sensors 5
+

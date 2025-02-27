@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<analysis version="2">
+    <inputs>
+        <input pattern="General-128-#0.vec"/>
+        <input pattern="General-23-#0.vec"/>
+        <input pattern="General-54-#0.vec"/>
+        <input pattern="General-89-#0.vec"/>
+    </inputs>
+    <charts/>
+</analysis>
